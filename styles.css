@@ -1,0 +1,152 @@
+/*GLOBAL SETTING
+----------------------------------------
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@300&display=swap');
+
+body {
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'Dancing Script', cursive;
+    color: #FFBE29; /* Ripe Mango */
+    background-color: #8D153A; /* Violet-Red */
+    margin: 0;
+}
+
+#wrapper {
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 3em;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 1.6em;
+    font-weight: 700;
+}
+
+a {
+    color: #FFBE29; /* Violet-Red */
+}
+
+a:visited {
+    color: #EB7400; /* University Of Tennessee Orange */
+}
+
+/* HEADER
+----------------------------------------
+*/
+
+header {
+    background: #00534E url(_images/banner.png); /* Deep Jungle Green */
+    height: 430px;
+    color: #ffffff;
+}
+
+header h1 {
+    visibility: hidden;
+}
+
+header img {
+    position: relative;
+    top: 20px;
+    left: 20px;
+    z-index: 999;
+}
+
+/* NAVIGATION
+----------------------------------------
+*/
+
+nav {
+    background-color: rgba(0, 0, 0, 0.65);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    padding-top: 45px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 20px 15px 20px;
+}
+
+nav a:hover {
+    background-color: #00534E;
+}
+
+nav a:visited {
+    color: #ffffff;
+}
+
+nav ul {
+    padding-left: 200px;
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+}
+
+nav span {
+    padding: 10px 20px 15px 20px;
+    background-color: #356d81;
+    color: #ffffff;
+}
+
+/* CONTENT 1
+----------------------------------------
+*/
+#three-columns {
+    display: flex;
+    margin: 30px 0;
+    text-align: center;
+}
+
+#three-columns section {
+    padding: 0 20px;
+}
+
+#community {
+    background-color: #EB7400;
+    color: #ffffff;
+    display: flex;
+    padding: 25px;
+}
+
+#community div {
+    padding-left: 25px;
+}
+
+#community a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.2em;
+    border: 1px solid #ffffff;
+    padding: 4px 15px;
+}
+
+
+/* FOOTER
+----------------------------------------
+*/
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+li {
+    padding: 20px;
+}
